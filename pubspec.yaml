@@ -1,0 +1,20 @@
+name: stack_overflow_demo
+description: A Demo Application demonstrating the issue with android_alarm_manager and plugins
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  android_alarm_manager: ^0.4.5+3
+  flutter_audio_query: ^0.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
